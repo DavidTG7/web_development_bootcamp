@@ -1,26 +1,17 @@
 body {
-  margin: 0;
-  text-align: center;
   font-family: "Merriweather", serif;
-}
-
-.top-container {
-  background-color: #E4F9F5;
-  height: 25%;
-  margin-left: auto;
-  margin-top: 0;
-  margin-right: auto;
+  margin: 0;
   text-align: center;
 }
 
 h1 {
   color: #36BFBF;
-  line-height: 1.5;
-  margin-top: 0;
-  padding-top: 150px;
   font-family: "Sacramento", cursive;
   font-size: 6.625rem;
   font-weight: 600;
+  line-height: 1.5;
+  margin-top: 0;
+  padding-top: 150px;
 }
 
 h2 {
@@ -36,35 +27,54 @@ h3 {
 }
 
 a {
-  font-family: "Montserrat", sans-serif;
   color: #11999E;
+  font-family: "Montserrat", sans-serif;
 }
+
+hr {
+  border: 0;
+  border-top: 6px dotted grey;
+  width: 4%
+}
+
+p {
+  line-height: 2;
+}
+
+#david-img {
+  border-radius: 10px;
+  margin-top: 3%;
+  width: 17%;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  height: 25%;
+  margin-left: auto;
+  margin-top: 0;
+  margin-right: auto;
+  text-align: center;
+}
+
 .cloud1 {
-  width: 10%;
   position: absolute;
   right: 230px;
+  width: 10%;
   z-index: 1;
 }
 
 .cloud2 {
-  width: 10%;
-  position: absolute;
   left: 220px;
+  position: absolute;
   top: 150px;
+  width: 10%;
   z-index: 1;
 }
 
 .mountains {
-  width: 100%;
-  position: relative;
-  /* top: 100px; */
   margin: 0 auto 0 auto;
-}
-
-#david-img {
-  margin-top: 3%;
-  border-radius: 10px;
-  width: 17%;
+  position: relative;
+  width: 100%;
 }
 
 .profile {
@@ -79,32 +89,28 @@ a {
 }
 
 .skill-row {
-  width: 50%;
   margin: 100px auto 100px auto;
-}
-
-.skill-row > p {
-  line-height: 2;
+  width: 50%;
 }
 
 .skill-row2 {
-  margin: 100px auto 100px auto;
-  width: 50%;
-  text-align: left;
   line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
 }
 
 .image-gif {
-  margin-right: 5%;
   float: left;
+  margin-right: 5%;
   width: 20%;
 }
 
 .bottom-container {
-  margin-top: 4.5%;
   background-color: #66BFBF;
-  padding: 3%;
   line-height: 2;
+  margin-top: 4.5%;
+  padding: 3%;
 }
 
 .btn {
@@ -112,26 +118,25 @@ a {
   border: 1px solid #66BFBF;
   border-radius: 10px;
   color: white;
+  font-weight: bolder;
   padding: 12px;
   text-decoration: none;
-  font-weight: bolder;
+}
+
+.btn:hover {
+  background-color: #ACFAFB;
 }
 
 .footer-link{
-  margin: 0 20px;
   font-size: 1.3rem;
   font-weight: bolder;
+  margin: 0 20px;
+  text-decoration: none;
 }
 
 .footer {
-  margin: 60px 0 0 0;
   color: white;
-}
-
-hr {
-  border: 0;
-  border-top: 6px dotted grey;
-  width: 4%
+  margin: 60px 0 0 0;
 }
 
 .last-p {
