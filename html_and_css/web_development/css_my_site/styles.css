@@ -1,32 +1,139 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
 
 .top-container {
   background-color: #E4F9F5;
-  height: 300px;
+  height: 25%;
   margin-left: auto;
   margin-top: 0;
   margin-right: auto;
-  width: 80%;
-}
-
-h1 {
-  margin-top: 0;
-  font-size: 60px;
-  padding-top: 90px;
-  font-family: fantasy;
   text-align: center;
 }
 
-.middle-container {
-  background-color: pink;
-  width: 200px;
-  height: 200px;
+h1 {
+  color: #36BFBF;
+  line-height: 1.5;
+  margin-top: 0;
+  padding-top: 150px;
+  font-family: "Sacramento", cursive;
+  font-size: 6.625rem;
+  font-weight: 600;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+.cloud1 {
+  width: 10%;
+  position: absolute;
+  right: 230px;
+  z-index: 1;
+}
+
+.cloud2 {
+  width: 10%;
+  position: absolute;
+  left: 220px;
+  top: 150px;
+  z-index: 1;
+}
+
+.mountains {
+  width: 100%;
+  position: relative;
+  /* top: 100px; */
+  margin: 0 auto 0 auto;
+}
+
+#david-img {
+  margin-top: 3%;
+  border-radius: 10px;
+  width: 17%;
+}
+
+.profile {
+  margin-bottom: 4.5%;
+}
+
+.skills {
+  margin-top: 4.5%
+}
+.python-img{
+  width: 10%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.skill-row > p {
+  line-height: 2;
+}
+
+.skill-row2 {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.image-gif {
+  margin-right: 5%;
+  float: left;
+  width: 20%;
 }
 
 .bottom-container {
-  background-color: #FFC600;
-  height: 200px;
-  width: 200px;
+  margin-top: 4.5%;
+  background-color: #66BFBF;
+  padding: 3%;
+  line-height: 2;
+}
+
+.btn {
+  background-color: #66BFBF;
+  border: 1px solid #66BFBF;
+  border-radius: 10px;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.footer-link{
+  margin: 0 20px;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.footer {
+  margin: 60px 0 0 0;
+  color: white;
+}
+
+hr {
+  border: 0;
+  border-top: 6px dotted grey;
+  width: 4%
+}
+
+.last-p {
+  margin-bottom: 4%;
 }
