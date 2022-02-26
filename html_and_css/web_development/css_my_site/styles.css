@@ -134,6 +134,11 @@ p {
   text-decoration: none;
 }
 
+
+.footer-link:hover {
+  color: #ACFAFB;
+}
+
 .footer {
   color: white;
   margin: 60px 0 0 0;
