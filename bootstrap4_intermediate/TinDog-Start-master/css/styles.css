@@ -27,7 +27,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 
@@ -63,12 +63,16 @@ h3 {
 .tittle-img {
   width: 60%;
   transform: rotate(25deg);
+  margin: auto auto -12rem 15%;
 }
 
 /* Features Section */
 #features {
-  margin: 5% 15%;
+  padding: 5% 15%;
   text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .features-h3 {
@@ -120,4 +124,15 @@ h3 {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 7%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
 }
