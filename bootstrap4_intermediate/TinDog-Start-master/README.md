@@ -1,2 +1,2 @@
-TinDog, Nav, Tittle and Features sections.
-<img src="./images/tindog_initial.gif">
+TinDog, front end component completed (Responsive).
+<img src="./images/final_page.gif">
