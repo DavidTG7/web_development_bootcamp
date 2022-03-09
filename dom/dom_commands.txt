@@ -1,0 +1,26 @@
+/* command to select an elemnt from the html document */
+document.firstElementChild.lastElementChild;
+
+/* command to change the text of an element in the html document */
+document.firstElementChild.lastElementChild.lastElementChild.innerHTML = "David";
+
+/* command to change text in an element using querySelector */
+document.querySelector("li").innerText = "hola";
+
+/* command to change a style attribute using selectors with querySelector */
+document.querySelector("li a").style.color = "red";
+
+/* command to change a style attribute using a class throuhg querySelector */
+document.querySelector(".btn").style.backgroundColorcolor = "yellow";
+document.querySelector(".btn").style.backgroundColor = "yellow";
+document.querySelector(".btn").style.borderRadius = "100%";
+document.querySelector(".btn").style.width = "100%";
+
+/* command to add or remove a class to an element using classList */
+document.querySelector("h1").classList.toggle("huge");
+
+/* adding html tag to another tag through innerHTML */ 
+document.querySelector("h1").innerHTML = '<a href=https://www.youtube.com/ target="_blank">ILU</a>';
+
+
+
