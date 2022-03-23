@@ -1,0 +1,15 @@
+{
+  "name": "bmi_calculator",
+  "version": "1.0.0",
+  "description": "BIM calculator",
+  "main": "bmi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David TG",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
